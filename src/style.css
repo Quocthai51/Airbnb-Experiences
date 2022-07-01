@@ -4,7 +4,19 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.bold--text {
+  font-weight: 600;
+}
+
+.black--text {
+  color: #000;
+}
+
+.gray--text {
+  color:#918E9B;
 }
 
 /* Navbar */
@@ -43,10 +55,9 @@ body {
 
 .SomeInfo {
   padding-top: 10px;
-  display:  flex;
+  display: flex;
   flex-direction: column;
   padding-left: 36px;
-
 }
 
 .SomeInfo > h1 {
@@ -59,4 +70,78 @@ body {
 .SomeInfo > p {
   max-width: 320px;
   font-weight: 300;
+}
+
+/* Card component */
+.Card--List {
+  display: flex;
+  flex-direction: row;
+  margin-inline-start: 1.54em;
+
+}
+
+.Card {
+  margin-inline-start: 0.5em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+  background-color: #fff;
+  
+  flex-direction: column;
+}
+
+.Card--Image > img {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.Card--Image > span {
+  margin-block-start: 5px;
+  margin-inline-start: 5px;
+
+  border: #fff;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 3px 4px 3px 4px;
+  line-height: 110%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 10.24px;
+}
+
+.Card--Rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 4px;
+}
+
+.Card--Rating > img {
+  width: 14px;
+  height: 14px;
+
+}
+
+.Card--Rating > p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+font-weight: 300;
+font-size: 12px;
+line-height: 110%;
+
+padding-top: 3px;
+}
+
+
+.Card--Detail > p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
 }
