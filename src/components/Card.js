@@ -1,6 +1,7 @@
 import React from "react";
 import star from "../images/star.png";
 
+
 function Card(props) {
 
   let badgeText
