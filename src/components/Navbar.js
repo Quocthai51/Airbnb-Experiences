@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../images/airbnbLogo.png"
+import Logo from "../images/airbnbLogo.png";
 function Navbar (){
       return ( 
             <div className="Navbar">
